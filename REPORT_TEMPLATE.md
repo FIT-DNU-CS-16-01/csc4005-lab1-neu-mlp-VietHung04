@@ -85,29 +85,29 @@ Test Loss |	1.4957 |	1.4542 |	1.5997
 ### 3.2 Learning Curves (Nhận xét chung)
 - Baseline:
 
-![Learning Curves](outputs\baseline_adamw\curves.png)
+<img width="1484" height="658" alt="image" src="https://github.com/user-attachments/assets/19f556b3-078e-4a79-a2d7-e321fac8380a" />
 
 - Run 2 (SGD): Cho thấy xu hướng hội tụ tốt nhất và ổn định nhất về mặt độ chính xác trên cả tập Validation và Test.
 
-![Learning Curves](outputs\run_sgd\curves.png)
+<img width="1484" height="657" alt="image" src="https://github.com/user-attachments/assets/0b31a29a-83e6-4b5d-ad89-d1d93204db86" />
 
 - Run 3 (Regularization): Do áp dụng Dropout (0.5) và Weight Decay (0.001) quá cao, mô hình gặp khó khăn trong việc học các đặc trưng quan trọng, dẫn đến kết quả thấp nhất trong 3 kịch bản.
 
-![Learning Curves](outputs\run_regularization\curves.png)
+<img width="1484" height="658" alt="image" src="https://github.com/user-attachments/assets/5e6816f8-966b-41d1-b0af-a38371178d40" />
 
 ### 3.3 Confusion Matrix
 
 - Baseline:
 
-![Confusion Matrix](outputs\baseline_adamw\confusion_matrix.png)
+<img width="765" height="734" alt="image" src="https://github.com/user-attachments/assets/80c83773-778b-43d5-9751-4e2bdf4b02fa" />
 
 - Run 2 (SGD): 
 
-![Confusion Matrix](outputs\run_sgd\confusion_matrix.png)
+<img width="765" height="734" alt="image" src="https://github.com/user-attachments/assets/4365c9f6-74b7-415e-9802-cacc3de78ce3" />
 
-- Run 3 (Strong Reg): 
+- Run 3 (Regularization): 
 
-![Confusion Matrix](outputs\run_regularization\confusion_matrix.png)
+<img width="765" height="734" alt="image" src="https://github.com/user-attachments/assets/3b5a2f65-376c-4064-927f-ccd7934ccee6" />
 
 ## 4. Phân tích
 
