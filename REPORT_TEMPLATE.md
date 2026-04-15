@@ -91,7 +91,7 @@ Test Loss |	1.4957 |	1.4542 |	1.5997
 
 ![Learning Curves](outputs\run_sgd\curves.png)
 
-- Run 3 (Strong Reg): Do áp dụng Dropout (0.5) và Weight Decay (0.001) quá cao, mô hình gặp khó khăn trong việc học các đặc trưng quan trọng, dẫn đến kết quả thấp nhất trong 3 kịch bản.
+- Run 3 (Regularization): Do áp dụng Dropout (0.5) và Weight Decay (0.001) quá cao, mô hình gặp khó khăn trong việc học các đặc trưng quan trọng, dẫn đến kết quả thấp nhất trong 3 kịch bản.
 
 ![Learning Curves](outputs\run_regularization\curves.png)
 
