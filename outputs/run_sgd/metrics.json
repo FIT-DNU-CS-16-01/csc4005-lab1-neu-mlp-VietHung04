@@ -1,0 +1,116 @@
+{
+  "best_val_loss": 1.4617516508808843,
+  "best_val_acc": 0.44074074074074077,
+  "test_loss": 1.4541851467556424,
+  "test_acc": 0.4074074074074074,
+  "class_names": [
+    "Crazing",
+    "Inclusion",
+    "Patches",
+    "Pitted_Surface",
+    "Rolled-in_Scale",
+    "Scratches"
+  ],
+  "classification_report": {
+    "Crazing": {
+      "precision": 0.4444444444444444,
+      "recall": 0.08888888888888889,
+      "f1-score": 0.14814814814814814,
+      "support": 45.0
+    },
+    "Inclusion": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 45.0
+    },
+    "Patches": {
+      "precision": 0.5869565217391305,
+      "recall": 0.6,
+      "f1-score": 0.5934065934065934,
+      "support": 45.0
+    },
+    "Pitted_Surface": {
+      "precision": 0.4482758620689655,
+      "recall": 0.5777777777777777,
+      "f1-score": 0.5048543689320388,
+      "support": 45.0
+    },
+    "Rolled-in_Scale": {
+      "precision": 0.3968253968253968,
+      "recall": 0.5555555555555556,
+      "f1-score": 0.46296296296296297,
+      "support": 45.0
+    },
+    "Scratches": {
+      "precision": 0.3333333333333333,
+      "recall": 0.6222222222222222,
+      "f1-score": 0.43410852713178294,
+      "support": 45.0
+    },
+    "accuracy": 0.4074074074074074,
+    "macro avg": {
+      "precision": 0.3683059264018784,
+      "recall": 0.40740740740740744,
+      "f1-score": 0.35724676676358774,
+      "support": 270.0
+    },
+    "weighted avg": {
+      "precision": 0.3683059264018784,
+      "recall": 0.4074074074074074,
+      "f1-score": 0.35724676676358774,
+      "support": 270.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      4,
+      4,
+      5,
+      11,
+      17,
+      4
+    ],
+    [
+      0,
+      0,
+      0,
+      5,
+      10,
+      30
+    ],
+    [
+      3,
+      0,
+      27,
+      14,
+      0,
+      1
+    ],
+    [
+      1,
+      2,
+      4,
+      26,
+      2,
+      10
+    ],
+    [
+      1,
+      2,
+      5,
+      1,
+      25,
+      11
+    ],
+    [
+      0,
+      2,
+      5,
+      1,
+      9,
+      28
+    ]
+  ],
+  "resolved_data_dir": "C:\\Ki3nam4\\monthu5\\csc4005-lab1-neu-mlp-VietHung04\\NEU-CLS_extracted"
+}
